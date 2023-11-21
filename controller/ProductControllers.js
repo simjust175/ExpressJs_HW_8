@@ -74,7 +74,7 @@ class ProductSystem {
 
     }
 
-    //get searched
+    //get with search
     static searchProducts(req, res) {
         this.statusCheck(res, this.PRODUCTS);
         let q = req.query.q.toLowerCase();

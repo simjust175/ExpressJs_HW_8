@@ -22,7 +22,7 @@ const router = async() => {
 route.post("/", ProductSystem.postProduct.bind(ProductSystem));
 
 //Get all
-//route.get("", ProductSystem.getAllProducts.bind(ProductSystem));
+route.get("", ProductSystem.getAllProducts.bind(ProductSystem));
 
 //GET with limit/ offset
 route.get("/", ProductSystem.getLimit);
