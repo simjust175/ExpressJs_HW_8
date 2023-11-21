@@ -32,9 +32,7 @@ class ProductSystem {
         if (!value.title) {
             res.status(400).send("Missing book title");
         }
-        if (!value.author) {
-            res.status(400).send("Missing book author");
-        }
+       
     }
 
     static getIndexById(req, res){
